@@ -7,4 +7,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  base: '/cleaner/',  // Add this line for GitHub Pages deployment
 });
